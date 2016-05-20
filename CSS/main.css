@@ -14,6 +14,7 @@ nav {
 .cta {
 	text-align: center;
 	background-image: url(../img/bg1.png);
+	background-size: cover;
 	height: 800px;
 }
 .cta h1 {
@@ -253,4 +254,60 @@ footer p {
 }
 .socialMedia a:first-child {
 	padding: 7px 9px;
+}
+
+@media (max-width: 570px) {
+	nav {
+		padding: 15px 50px;
+	}
+	.cta {
+		height: 630px;
+	}
+	.cta h1 {
+		font-size: 60px;
+	}
+	.cta p {
+		font-size: 13px;
+	}
+	.info h2 {
+		font-size: 25px;
+	}
+	.info p {
+		line-height: 20px;
+	}
+	.features .box {
+		display: block;
+		margin: 20%;
+	}
+	.box h4 {
+		font-size: 14px;
+		width: 100px;
+	}
+	.box p {
+		font-size: 15px;
+		line-height: 20px;
+		width: 100px;
+	}
+	form > input, form > textarea {
+		width: 80px;
+	}
+	.contact {
+		height: 600px;
+		padding: 0;
+
+	}
+	form div span {
+		position: initial;
+	}
+	form div button {
+		position: initial;
+		margin-top: 10px;
+	}
+	footer p {
+		position: initial;
+	}
+	.socialMedia {
+		position: initial;
+		float: initial;
+	}
 }
